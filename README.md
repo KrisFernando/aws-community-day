@@ -4,9 +4,10 @@
 npm run dev
 ```
 
-## Run Application
+## Run Build and Application
 
 ```
+npm run build
 npm start
 ```
 
