@@ -1,4 +1,4 @@
-## Run Application - Development
+## Run Application - Development (locally)
 
 ```
 npm run dev
