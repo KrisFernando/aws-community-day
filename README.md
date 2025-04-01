@@ -31,7 +31,7 @@ aws ecr get-login-password --region us-east-1 | docker login --username AWS --pa
 
 - Replace ############ with Account ID
 
-## Find Image ID, Tag, and Push to ECR
+## Find Image ID, Tag and Push to ECR
 
 ```
 docker images
