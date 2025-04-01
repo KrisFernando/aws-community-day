@@ -1,5 +1,4 @@
 README.md
-.presentation
-node_modules
-dist
-.git
+/.presentation/
+/node_modules/
+/.git/
