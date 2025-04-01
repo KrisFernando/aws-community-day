@@ -4,7 +4,7 @@
 npm run dev
 ```
 
-## Run Build and Application
+## Build and Run Application
 
 ```
 npm run build
