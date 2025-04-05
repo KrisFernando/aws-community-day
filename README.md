@@ -23,6 +23,12 @@ docker build . -t aws-community-day/app:latest
 docker run -d -p 80:80 aws-community-day/app:latest
 ```
 
+## Setup AWS CLI and Configure with Access Keys
+
+```
+aws configure
+```
+
 ## Authenticate Docker Client with Amazon ECR
 
 ```
@@ -30,6 +36,12 @@ aws ecr get-login-password --region us-east-1 | docker login --username AWS --pa
 ```
 
 - Replace ############ with Account ID
+
+## Setup ECR Private Repository
+
+```
+aws ecr create-repository --repository-name aws-community-day/app --region us-east-1
+```
 
 ## Find Image ID, Tag and Push to ECR
 
