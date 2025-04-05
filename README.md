@@ -1,9 +1,3 @@
-## Run Application - Development (locally)
-
-```
-npm run dev
-```
-
 ## Build and Run Application
 
 ```
