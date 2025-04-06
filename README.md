@@ -1,6 +1,7 @@
 ## Build and Run Application
 
 ```
+npm install
 npm run build
 npm start
 ```
@@ -41,8 +42,9 @@ aws ecr create-repository --repository-name aws-community-day/app --region us-ea
 
 ```
 docker images
-docker tag aa9d1fccdd20 ############.dkr.ecr.us-east-1.amazonaws.com/aws-community-day/app:latest
+docker tag $$$$$$$$$$ ############.dkr.ecr.us-east-1.amazonaws.com/aws-community-day/app:latest
 docker push ############.dkr.ecr.us-east-1.amazonaws.com/aws-community-day/app:latest
 ```
 
 - Replace ############ with Account ID
+- Replace $$$$$$$$$$ with Image ID
